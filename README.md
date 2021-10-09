@@ -8,7 +8,9 @@ Script ini hanya dapat digunakan jika aplikasi JIBAS Anda sudah _live_ atau dapa
 Saat ini, script hanya bisa digunakan untuk melihat data keuangan siswa. Adapun data keuangan untuk calon siswa maupun pegawai masih dalam pengembangan. Untuk menu penilaian dan kehadiran juga masih dalam masa pengembangan. :D
 
 ## Prasyarat
-Pengiriman pesan _list_ hanya bisa dilakukan dari akun WhatsApp reguler, bukan akun WhatsApp Bisnis.
+1. Pengiriman pesan _list_ hanya bisa dilakukan dari akun WhatsApp reguler, bukan akun WhatsApp Bisnis.
+2. Orangtua, siswa/calon siswa, maupun pegawai tidak perlu melakukan proses registrasi seperti di Telegram Gateway. Selama nomor WA user terdaftar di bagian nomor HP di JIBAS, maka bisa menggunakan fitur WA Gateway ini.
+3. Format nomor HP yang harus didaftarkan di Modul Akademik JIBAS adalah 628xxxx atau 08xxxx.
 
 ## Instalasi
 Silakan masuk ke folder JIBAS Anda. Kita asumsikan URL Anda adalah [https://domainsekolah.sch.id/jibas/](https://domainsekolah.sch.id/jibas/), maka silakan unduh atau klon repo ini.
@@ -28,6 +30,3 @@ Silakan mendaftarkan akun di sistem WhatsApp Gateway di [JBSWA.my.id](https://jb
 5.  Isi webhook/callback dengan https://domainsekolah.sch.id/jibas/jbswa/core/callback.php?secret=my_secret_key
 6.  Scan QR Code dengan aplikasi WhatsApp Anda yang akan dijadikan bot hingga _connected_
 7.  Kirim pesan ke nomor bot Anda dengan format **/start**
-
-## Catatan
-Orangtua, siswa/calon siswa, maupun pegawai tidak perlu melakukan proses registrasi seperti di Telegram Gateway. Selama nomor WA user terdaftar di bagian nomor HP di JIBAS, maka bisa menggunakan fitur WA Gateway ini.
