@@ -12,6 +12,7 @@ Silakan masuk ke folder JIBAS Anda. Kita asumsikan URL Anda adalah [https://doma
 1. ``` cd path/to/jibas ```
 2. ``` git clone https://github.com/arifnrw/jbswa.git jbswa ```
 3. ``` cd jbswa ```
+4. Ubah **my_secret_key** di callback.php ```$mysecret   = "my_secret_key";``` sesuai yang Anda inginkan.
 
 
 ## Daftar Akun
@@ -20,7 +21,7 @@ Silakan mendaftarkan akun di sistem WhatsApp Gateway di [JBSWA.my.id](https://jb
 2. Japri WA 08117227547 agar diberikan saldo trial
 3.  Masuk ke menu Device
 4.  Tambah Device, pilih Trial
-5.  Isi webhook/callback dengan https://domainsekolah.sch.id/jibas/jbswa/core/callback.php
+5.  Isi webhook/callback dengan https://domainsekolah.sch.id/jibas/jbswa/core/callback.php?secret=my_secret_key
 6.  Scan QR Code dengan aplikasi WhatsApp Anda yang akan dijadikan bot hingga _connected_
 7.  Kirim pesan ke nomor bot Anda dengan format **/start**
 
