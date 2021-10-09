@@ -7,6 +7,9 @@ Script ini hanya dapat digunakan jika aplikasi JIBAS Anda sudah _live_ atau dapa
 ## Contoh
 Saat ini, script hanya bisa digunakan untuk melihat data keuangan siswa. Adapun data keuangan untuk calon siswa maupun pegawai masih dalam pengembangan. Untuk menu penilaian dan kehadiran juga masih dalam masa pengembangan. :D
 
+## Prasyarat
+Pengiriman pesan _list_ hanya bisa dilakukan dari akun WhatsApp reguler, bukan akun WhatsApp Bisnis.
+
 ## Instalasi
 Silakan masuk ke folder JIBAS Anda. Kita asumsikan URL Anda adalah [https://domainsekolah.sch.id/jibas/](https://domainsekolah.sch.id/jibas/), maka silakan unduh atau klon repo ini.
 1. ``` cd path/to/jibas ```
