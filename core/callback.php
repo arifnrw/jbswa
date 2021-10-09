@@ -3,7 +3,7 @@
 $json       = file_get_contents("php://input");
 $array      = json_decode($json, true);
 $secret     = ($_GET['secret']) ? : '';
-$mysecret   = "bismillah";
+$mysecret   = "my_secret_key";
 
 if ($array['category'] == 'private' && $mysecret == $secret) {
     $wa     = $array["number"];
