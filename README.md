@@ -14,8 +14,9 @@ Pengiriman pesan _list_ hanya bisa dilakukan dari akun WhatsApp reguler, bukan a
 Silakan masuk ke folder JIBAS Anda. Kita asumsikan URL Anda adalah [https://domainsekolah.sch.id/jibas/](https://domainsekolah.sch.id/jibas/), maka silakan unduh atau klon repo ini.
 1. ``` cd path/to/jibas ```
 2. ``` git clone https://github.com/arifnrw/jbswa.git jbswa ```
-3. ``` cd jbswa ```
-4. Ubah **my_secret_key** di callback.php ```$mysecret   = "my_secret_key";``` sesuai yang Anda inginkan.
+3. ``` cd jbswa/core ```
+4. ``` cp config.sample.php config.php```
+5. Ubah **my_secret_key** di callback.php ```$mysecret   = "my_secret_key";``` sesuai yang Anda inginkan.
 
 
 ## Daftar Akun
