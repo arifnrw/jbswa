@@ -38,7 +38,7 @@ if ($array['category'] == 'private' && $mysecret == $secret) {
     switch ($key) {
         case '/start':
             
-            $balas = "Selamat datang di Channel WhatsApp *$sekolah*\n\nDengan bergabung di Channel ini, anda dapat memperoleh:\n- Laporan Perolehan Nilai, Pembayaran Keuangan, Presensi Kehadiran dan Peminjaman Pustaka yang dilakukan oleh Siswa\n- Informasi, Pengumuman dan Berita dari Sekolah\n- Notifikasi mengenai transaksi keuangan yang dibayarkan, kehadiran siswa di sekolah dan perolehan nilai ujian\n\n------------------------------\nJBS WhatsApp Gateway 1.0\napp.waqu.app";
+            $balas = "Selamat datang di Channel WhatsApp *$sekolah*\n\nDengan bergabung di Channel ini, anda dapat memperoleh:\n- Laporan Perolehan Nilai, Pembayaran Keuangan, Presensi Kehadiran dan Peminjaman Pustaka yang dilakukan oleh Siswa\n- Informasi, Pengumuman dan Berita dari Sekolah\n- Notifikasi mengenai transaksi keuangan yang dibayarkan, kehadiran siswa di sekolah dan perolehan nilai ujian\n\n------------------------------\nWhatsAppQu 3.0\napp.waqu.app";
             $buttonlist = "Lihat Menu";
             $section = "Menu";
             $title = "/registrasi,/keuangan,/nilai,/kehadiran";
