@@ -22,9 +22,9 @@ Silakan masuk ke folder JIBAS Anda. Kita asumsikan URL Anda adalah [https://doma
 
 
 ## Daftar Akun
-Silakan mendaftarkan akun di sistem WhatsApp Gateway di [JBSWA.my.id](https://jbswa.my.id).
+Silakan mendaftarkan akun di sistem WhatsApp Gateway di [app.waqu.app](https://app.waqu.app).
 1. Daftar akun
-2. Japri WA 08117227547 agar diberikan saldo trial
+2. Japri WA 0819886180 agar diberikan saldo trial
 3.  Masuk ke menu Device
 4.  Tambah Device, pilih Trial
 5.  Isi webhook/callback dengan https://domainsekolah.sch.id/jibas/jbswa/core/callback.php?secret=my_secret_key
