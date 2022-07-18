@@ -22,7 +22,7 @@ Silakan masuk ke folder JIBAS Anda. Kita asumsikan URL Anda adalah [https://doma
 
 
 ## Daftar Akun
-Silakan mendaftarkan akun di sistem WhatsApp Gateway di [warayang.com](https://warayang.com).
+Silakan mendaftarkan akun di sistem WhatsApp Gateway di [wanesia.com](https://wanesia.com) atau versi Free Lite di [lite.wanesia.com](https://lite.wanesia.com).
 1. Daftar akun
 2. Japri WA 0819886180 agar diberikan saldo trial
 3.  Masuk ke menu Device
