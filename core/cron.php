@@ -4,8 +4,8 @@ include('config.php');
 $conn = mysqli_connect($db_host,$db_user,$db_pass,'jbssms');
 
 //isi detail token WA
-$base_url   = "https://wanesia.com/";
-$token      = "xxx"; //diperoleh di device wanesia.com
+$base_url   = "https://wanesia.com/"; // atau https://lite.wanesia.com/
+$token      = "xxx"; //diperoleh di device wanesia.com atau di lite.wanesia.com
 
 $sql = "SELECT * FROM outbox LIMIT " . $cronLimit;
 $res = $conn->query($sql);
