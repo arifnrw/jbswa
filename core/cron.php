@@ -23,7 +23,7 @@ if (mysqli_num_rows($res) > 0) {
         $status   = ($data['status'] == 'sent') ? 1 : 0;
 
         // masukkan ke outboxhistory
-        $resHistory = $conn->query("INSERT INTO outboxhistory SET Text='$msg', DesstinationNumber='$hp', status='$status'");
+        $resHistory = $conn->query("INSERT INTO outboxhistory SET Text='$msg', DestinationNumber='$hp', status='$status'");
 
         // hapus outbox
         $resDel     = $conn->query("DELETE FROM outbox WHERE ID='$id'");
